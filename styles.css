@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  max-width: 70%;
+  max-height: fit-content;
+}
+
+.head {
+  width: 100%;
+  height: 220px;
+  box-sizing: border-box;
+  background: linear-gradient(to left, #0f2027, #203a43, #2c5364);
+  position: static;
+}
+
+.prof {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border: dotted;
+  border-color: #2c5364;
+  border-radius: 50%;
+  left: 50px;
+  top: 50px;
+
+  /* padding: 2px;
+  top: 10px;
+  left: 75px; */
+}
+
+.headinfo {
+  position: relative;
+  left: 250px;
+  bottom: 50px;
+  margin-left: 20px;
+}
+
+h2 {
+  background-color: rgba(128, 128, 128, 0.53);
+}
+
+aside {
+  float: left;
+  width: 50%;
+}
+section {
+  float: right;
+  width: 50%;
+}
+
+footer {
+  /* clear: both; */
+  border-bottom: solid white;
+}
+
+section h2,
+p {
+  margin: 10px 2px;
+}
+aside h2 {
+  margin: 10px 2px;
+}
+
+img.mail::before {
+  content: "";
+}
+.botinfo {
+  margin: 15px 15px 0px;
+}
